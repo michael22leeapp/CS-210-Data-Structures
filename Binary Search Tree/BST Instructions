@@ -1,0 +1,41 @@
+Program 2: Binary Search Tree
+Due Oct 18, 2021 by 11:59pm Points 30 Submitting a file upload File Types cpp, txt, h, and hpp
+Overview
+In this assignment, students will implement a Data Structure in C++ that fulfills the requirements of both the Set and Map Abstract Data Types (ADTs). Students shall achieve this through multiple inheritance. 
+
+Student Learning Outcomes
+After completing this assignment, students will:
+
+Understand the inner-workings of nested-classes, node objects, and how they relate in a tree data structure.
+Use pointers (or smart pointers) to link objects together. 
+Use overridden operators. 
+Explore recursion and its limitations with this data structure.
+Requirements
+The class instructor shall provide students with several files that constitute a project. These include the following:
+
+File	Description
+main.cpp	The driver test file (do not modify)
+Set.h	The pure, virtual 'interface' file (do not modify)
+Map.h	The pure, virtual 'interface' file (do not modify)
+BinarySearchTree.h	The student implementation of the data structure that meets the requirements specified herein.
+Note: The versions of the above files will change as the assignment progresses and oversights become apparent. The class instructor will announce on Canvas when a new version of the file is available for students. 
+
+Using these files, students shall develop their own, original source code for the BinarySearchTree.h methods. Ultimately, students must deliver a Binary Search Tree that correctly performs the actions specified in the two interface files. For example, every Set must provide a 'contains' operation, so students must develop this code in their own BinarySearchTree.h file. 
+
+The files Set.h and Map.h define the exhaustive set of methods students must implement. The file BinarySearchTree.h has a boiler-plate already built with the required functions, so students need only provide their unique code. 
+
+The BinarySearchTree must demonstrate O(log n) behavior for get, insert, and remove when working with a balanced number sequence. The timing for this structure will be unavoidably deplorable when inserting a series in-order, however, and students are under no expectation to solve that problem. This data structure will break down with in order key sequence insertions, and that is expected. 
+
+Delivery
+On or before the due date, students shall submit their version of BinarySearchTree.h and the output their program produced when they ran it locally. The instructors and graders do not require any of the instructor provided files that the students were instructed not to modify. The instructor will use the original versions of these files to make certain no modifications took place.
+
+Grading
+You earn points on this assignment through the following ways:
+
+Points	Requirement
+-5	You can earn negative points (woo-hoo!) by not including your name in the file comment in the BinarySearchTree.h source file. 
+5	Project compiles with the instructor's files and the student's BinarySearchTree.h file. 
+8	BinarySearchTree passes the Set tests.
+7	BinarySearchTree passes the Map tests.
+5	Student supplies example of running output (e.g. screen redirect). 
+5	Clean code with consistent formatting, intelligent variable names, and including helper functions (like resizing) when necessary. 
