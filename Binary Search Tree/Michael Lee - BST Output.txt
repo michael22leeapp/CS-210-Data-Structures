@@ -1,0 +1,26 @@
+"C:\Users\micha\OneDrive\Desktop\SDSU Fall 2021\CS 210\Project 2 - BST\cmake-build-debug\prog2.exe"
+---- Version Report ----
+|  Main Version:  1.1  |
+|       SET ADT:    1  |
+|       MAP ADT:  1.1  |
+------------------------
+
+Testing Set Methods . . .
+ 1....................................testIsEmpty_afterConstruct_isEmpty...PASS
+ 2.................testSize_afterInsertingRandomOrder_correctAlongTheWay...FAIL
+ 3.................testSize_afterRemovingAllSIZEItems_correctAlongTheWay...PASS
+ 4................................testInsert_SIZERandomItems_containsAll...PASS
+ 5...........................testInsert_SIZEIdenticalItems_sizeEqualsOne...PASS
+ 6...............................testClear_insertSIZERandomitems_isEmpty...PASS
+ 7...................................testRemove_itemMissing_returnsFalse...PASS
+ 8....................................testRemove_itemPresent_returnsTrue...PASS
+ 9....testRemove_sameProbeValuesSIZETimesWhileBuilding_presentNotPresent...PASS
+10...................................testRemove_leaves_presentNotPresent...PASS
+11.............................testRemove_withChildren_presentNotPresent...PASS
+
+Testing Map Methods . . .
+ 1................................testGet_changedValue_valueUpdatedInMap...PASS
+ 2........................testInsertKeyValue_uniqueKeysValues_allPresent...PASS
+Complete.
+
+Process finished with exit code 0
