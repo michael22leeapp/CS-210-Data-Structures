@@ -1,0 +1,46 @@
+Program 1: Circular Array
+Due Sep 20, 2021 by 11:59pm Points 30 Submitting a file upload File Types cpp, txt, h, and hpp Available after Sep 1, 2021 at 12am
+Overview
+In this assignment, students will implement a Data Structure in C++ that fulfills the requirements of both the List and Queue Abstract Data Types (ADTs). Students shall achieve this through multiple inheritance. 
+
+Student Learning Outcomes
+After completing this assignment, students will:
+
+Understand the inner-workings of a fundamental data structure and implement it using the C++ programming language. 
+Explore polymorphism concepts (i.e. CircularArray == Queue; CircularArray == List)
+Develop cleaner code with an understanding of how to include tests in the design process. 
+Adhere to the algorithmic complexity requirements of the data structure. 
+Gain familiarity with the C++ class inheritance process.
+Requirements
+The class instructor shall provide students with several files that constitute a project. These include the following:
+
+File	Description
+main.cpp	The driver test file (do not modify)
+Queue.h	The pure, virtual 'interface' file (do not modify)
+List.h	The pure, virtual 'interface' file (do not modify)
+CircularArray.h	The student implementation of the data structure that meets the requirements specified herein.
+Note: The versions of the above files will change as the assignment progresses and oversights become apparent. The class instructor will announce on Canvas when a new version of the file is available for students. 
+
+Using these files, students shall develop their own, original source code for the CircularArray.h methods. Ultimately, students must deliver a CircularArray that correctly performs the actions specified in the two interface files. For example, every Queue must provide an enqueue operation, so students must develop this code in their own CircularArray file. For full credit, however, the final product must meet the complexity performance requirements we expect from this style of structure. Thus, adding a single item to the array must occur in constant time.  
+
+Moreover, simply creating a Circular Array, although thrilling, pales in comparison to the joy of creating one that includes buffer space and automatically expands and contracts to match the data. Therefore, the circular array for this assignment shall also behave like an array-list (or vector) by dynamically adjusting its size in response to the data it stores. Students will implement two data structures for the price of . . . two really. Both aspects of the assignment require significant work and conceptualization. 
+
+The files Queue.h and List.h define the exhaustive set of methods students must implement. The file CircularArray.h has a boiler-plate already built with the required functions, so students need only provide their unique code. 
+
+The CircularArray must demonstrate O(1) behavior for addFirst and addLast. Achieving O(1) behavior for add with a standard array is trivial, but removing the first element is impossible in under O(n). A circular array, however, makes removing from the front fast and efficient. 
+
+The CircularArray must include a buffer like Vectors and ArrayLists do, and grow dynamically in response to adding and removing items. Thus, some specific insertions and removals from the CircularArray will take longer than O(1), for the data structure occasionally resizes, but the expected value is that the time will remain constant. Students may not use the standard library vector for this purpose and must implement their own version. It is annoying, but a necessary part of the education. 
+
+Delivery
+On or before the due date, students shall submit their version of CircularArray.cpp and the output their program produced when they ran it locally. The instructors and graders do not require any of the instructor provided files that the students were instructed not to modify. The instructor will use the original versions of these files to make certain no modifications took place.
+
+You earn points on this assignment through the following ways:
+
+Points	Requirement
+-5	You can earn negative points (woo-hoo!) by not including your name in the file comment in the CircularArray.cpp source file. 
+5	Project compiles with the instructor's files and the student's CircularArray.cpp file. 
+5	CircularArray uses a buffer and dynamically resizes based on contents.
+5	enqueue()  O(1) average complexity.
+5	dequeue() O(1) average complexity.
+5	Student supplies example of running output (e.g. screen redirect). 
+5	Clean code with consistent formatting, intelligent variable names, and including helper functions (like resizing) when necessary. 
