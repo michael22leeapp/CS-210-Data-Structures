@@ -1,0 +1,8 @@
+C:\Users\micha\OneDrive\Desktop\MazeTwistyPassages\Maze\cmake-build-debug\Maze.exe 2
+XXXXX
+X.X.X
+XXXXX
+X.X.X
+XXXXX
+
+Process finished with exit code 0
